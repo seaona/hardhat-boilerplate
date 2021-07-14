@@ -1,0 +1,31 @@
+{
+  "name": "hardhat-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with templates for starting a new web3 project with Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seaona/hardhat-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seaona/hardhat-boilerplate/issues"
+  },
+  "homepage": "https://github.com/seaona/hardhat-boilerplate#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3",
+    "hardhat-etherscan-abi": "^0.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
