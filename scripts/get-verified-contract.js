@@ -1,11 +1,9 @@
 const hre = require("hardhat");
 require("hardhat-etherscan-abi");
 
-async function getVerifiedContract() {
-
-  const contract = await JSON.stringify(hre.ethers.getVerifiedContractAt('0xb3cFc929994acEB2821601b3bB11dc74087aBD6B'));
-  console.log(`Contract ABI ${contract}`)
-
+getABI = async addr => {
+  const contract = await hre.ethers.getVerifiedContractAt(addr)
+  console.log(JSON.stringify(contract))
 }
 
-getVerifiedContract()
+getABI('0xdA0B1269C0fFC29583AE952E5e3Cde5da0A4b944')
